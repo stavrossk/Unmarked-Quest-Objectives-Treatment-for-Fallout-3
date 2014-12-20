@@ -1,0 +1,49 @@
+scriptname TreatmentQuestSCRIPT
+
+Begin GameMode
+
+
+	if ( FreeformMegaton.WalterAskedPlayerForHelp == 1 )
+				
+		if ( FreeformMegaton.PipesRepairedCount  == 0 )		
+			if ( getStage TreatmentQuest != 10 )
+				setStage TreatmentQuest 10
+			endif
+		endif
+		
+		if ( FreeformMegaton.PipesRepairedCount  == 1 )		
+			if ( getStage TreatmentQuest != 20 )
+				setStage TreatmentQuest 20
+			endif
+		endif
+
+		if ( FreeformMegaton.PipesRepairedCount  == 2 )		
+			if ( getStage TreatmentQuest != 30 )
+				setStage TreatmentQuest 30
+			endif
+		endif
+
+		if ( FreeformMegaton.AllPipesRepaired == 1 )		
+			if ( getStage TreatmentQuest != 40 )
+				setStage TreatmentQuest 40
+			endif
+		endif
+
+
+	endif
+
+	if ( FreeformMegaton.WalterAskedPlayerForHelp == 0 )
+		
+		if ( FreeformMegaton.AllPipesRepaired == 1 )
+			
+			if ( getStage TreatmentQuest != 100 )
+				setStage TreatmentQuest 100			
+			endif		
+
+		endif
+
+	endif
+
+	
+
+End
