@@ -1,4 +1,7 @@
-Fallout3-Unmarked-Quest-Objectives
+Unmarked Quest Objectives: Treatment for Fallout 3
 ==================================
 
-This is a plugin for Fallout 3 which adds quest objectives and map markers to some of the game's unmarked quests, so that players can now easily track their progress on those quests.
+This is a plugin for the PC game "Fallout 3".
+
+It adds quest objectives and map markers to one of the game's unmarked quests, "Treatment",
+so you can now track your progress on this quest with your Pip-Boy!
